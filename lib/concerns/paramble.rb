@@ -1,7 +1,8 @@
 module Paramble
 
+ module InstanceMethods
   def to_param
-    self.downcase.gsub(' ', '-')
+    name.downcase.gsub(' ', '-')
   end
 
 end
