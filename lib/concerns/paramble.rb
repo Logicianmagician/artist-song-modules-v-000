@@ -1,4 +1,4 @@
-class Paramble
+module Paramble
 
   def to_param
     self.downcase.gsub(' ', '-')
